@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> We Care Insuarance </title>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<script src="./js/Script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<div class="header-container">
+				<div id="logo">
+					<img src="./Images/logo.png" alt="" />
+				</div>
+
+				<div>
+					<div class="name">We Care Insurance</div>
+					<i> Your safety is our priority </i>
+				</div>
+
+				<div id="user-controls">
+					<div id="user-icons">
+						<div id="cart">
+							<img src="./Images/login.png" alt="" />
+						</div>
+						<div id="profile">
+							<img src="./Images/user.png" alt="" />
+						</div>
+					</div>
+					<div id="user-auth">
+						<div><a href="">Log In</a></div>
+						<div><a href="">Sign Up</a></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="topnav">
+			<div class="topnav-right">
+				<a href="">Home</a>
+				<a href="Products.html">Our Products</a>
+				<a href="">About Us</a>
+				<a href="">News</a>
+				<a href="">Contact Us</a>
+			</div>
+		</div>
+
+		<section>
+			<nav class="nav1">
+				<ul>
+					<li><a href="">Agent Login</a></li>
+					<li><a href="claim.html">Claim</a></li>
+					<li><a href="Register.html">Signup and Register</a></li>
+				</ul>
+			</nav>
+			
+    <div class="claim">
+    <form id="frm" target="_self" method="POST">
+    <b>
+      <div id="dv1"><h1><b> How To Claim </b></h1></div><br/><br/>
+      <label> Registered code </label> <br/>
+      <input type="text" id="fname" name="fname" placeholder="eg:Amali" required> <br/><br/>
+	  Last Name <br/>
+	  <input type="text" id="lname" name="lname" placeholder="eg:Siriwardhane" required> <br/><br/>
+	  E-mail <br/>
+	  <input type="email" id="mail" name="mail" pattern="[a-zA-Z0-9._%+-]+@[a-z]+\.+[a-z]{2,3}" placeholder="eg:Amali123@gmail.com"> <br/><br/>
+	  Mobile Number <br/>
+	  <input type="tel" id="Mnum" name="Mname" pattern="[0-9]{10}" placeholder="eg:0772891345" required> <br/><br/>
+	  Inquiry Type <br/>
+	  <select>
+	    <option> General </option>
+	    <option> Complaints </option>
+	    <option> Claim Inquiry </option>
+	    <option> Other </option>
+	  </select>
+	  <br/><br/>
+	  Inquiry <br/>
+	  <textarea id="inq" name="inq" rows="10" cols="50" placeholder="Give a small description about your inquiry" required></textarea> <br/><br/>
+	  <input type="submit" id="bttn" name="bttn" value="Submit" onclick="submission()">
+    </b>
+    </form>
+    </div>
+	 
+    <div id="dv4">
+       <img src="./images/image1.png">  
+    </div>
+   
+    </section>    
+	<footer>
+		<div id="site-map">
+	    	<div id="social-links">
+				<h3>Connect us With</h3>
+				<div id="social-media-img">
+					<a href="https://www.facebook.com/">
+						<img src="./Images/facebook.png" alt="facebook" />
+					</a>
+					<a href="https://twitter.com/">
+						<img src="./Images/twitter.png" alt="twitter" />
+					</a>
+					<a href="https://www.instagram.com/">
+						<img src="./Images/instagram.png" alt="instagram" />
+					</a>
+					<a href="https://www.linkedin.com/">
+						<img src="./Images/linkedin.png" alt="linkedin" />
+					</a>
+				</div>
+			</div>
+		</div>
+			
+		<ul class="location">
+		    <li>480/B, Dehiwala Road,Colombo</li>
+		</ul>
+
+		<ul class="web">
+		    <li>info@wecare.lk</li>
+		</ul>
+
+		<ul class="mail">
+		    <li>www,wecare.lk</li>
+		</ul>
+			
+		<div id="legal">
+			<div>
+			<div id="copyrights">
+				Copyright 2020 We Care Insurance | All rights reserved
+			</div>
+			<div id="policies">
+				<ul>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Terms of use</a></li>
+				<li><a href="">Legal</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

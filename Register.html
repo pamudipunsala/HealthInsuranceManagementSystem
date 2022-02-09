@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> We Care Insuarance </title>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<script src="./js/Script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<div class="header-container">
+				<div id="logo">
+					<img src="./Images/logo.png" alt="" />
+				</div>
+
+				<div>
+					<div class="name">We Care Insurance</div>
+					<i> Your safety is our priority </i>
+				</div>
+
+				<div id="user-controls">
+					<div id="user-icons">
+						<div id="cart">
+							<img src="./Images/login.png" alt="" />
+						</div>
+						<div id="profile">
+							<img src="./Images/user.png" alt="" />
+						</div>
+					</div>
+					<div id="user-auth">
+						<div><a href="">Log In</a></div>
+						<div><a href="">Sign Up</a></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="topnav">
+			<div class="topnav-right">
+				<a href="">Home</a>
+				<a href="Products.html">Our Products</a>
+				<a href="">About Us</a>
+				<a href="">News</a>
+				<a href="">Contact Us</a>
+			</div>
+		</div>
+
+		<section>
+			<nav class="nav1">
+				<ul>
+					<li><a href="">Agent Login</a></li>
+					<li><a href="claim.html">Claim</a></li>
+					<li><a href="Register.html">Signup and Register</a></li>
+				</ul>
+			</nav>
+			
+   <div class="claim">
+  <form id="frm" action="#" target="_self" method="POST" onsubmit="return checkPassword()">
+  <h1 id="dv1"><b> Register Now </b></h1>
+  <b>
+	   <label> Full Name </label> <br/>
+	   <input type="text" id="fname" name="fname" placeholder="eg:Lakmini Shaleena Rajasooriya" required> <br/><br/>
+	   Name With Initials <br/>
+	   <input type="text" id="iname" name="iname" placeholder="eg:L.S.Rajasooriya" required> <br/><br/>
+	   Gender <br/>
+	   <input type="radio" id="gender" name="gender" required> Male
+	   <input type="radio" id="gender" name="gender" required> Female <br/><br/>
+	   Age <br/>
+	   <input type="text" id="age" name="age" required> <br/><br/>
+	   Telephone Number <br/>
+	   <input type="tel" id="lnum" name="lname" pattern="[0-9]{10}" placeholder="Home    eg:0112345678" >
+	   <input type="tel" id="Mnum" name="Mname" pattern="[0-9]{10}" placeholder="Mobile    eg:0712345678" required> <br/><br/>
+	   E-mail <br/>
+	   <input type="email" id="mail" name="mail" pattern="[a-zA-Z0-9._%+-]+@[a-z]+\.+[a-z]{2,3}" placeholder="eg: Lakmini123@gmail.com" required> <br/><br/>
+       NIC Number <br/>
+	   <input type="text" id="nic" name="nic" pattern="[0-9]+[v]" placeholder="687967435v" required> <br/><br/>
+	   Address <br/>
+	   <textarea id="add" name="add" rows="8" cols="50" placeholder="Enter your postal address" required></textarea> <br/><br/>
+	   Date of Birth
+       <input type="date" id="dob" name="dob" required> <br/><br/>
+	   Password <br/>
+	   <input type="password" id="pwd" name="pwd" pattern="[a-zA-Z0-9./%*@#]{5,10}" placeholder="Enter less than 10 charactors" required> <br/><br/>
+	   Re-enter Password <br/>
+	   <input type="password" id="rpwd" name="rpwd" pattern="[a-zA-Z0-9./%*@#]{5,10}" required> <br/><br/>
+       <input type="checkbox" id="policy" name="policy" required>
+	   I promise the entered information above is true <br/><br/>
+	   <input type="submit" id="bttn" name="bttn" value="Register" onclick="enableButton()"> <br/> <br/>
+	 </b>
+	 </form>
+   </div>
+	 
+    <div id="dv4">
+       <img src="./images/image2.jpg"> 
+    </div>
+   
+    </section>    
+
+	<footer>
+		<div id="site-map">
+			<div id="social-links">
+				<h3>Connect us With</h3>
+				<div id="social-media-img">
+					<a href="https://www.facebook.com/">
+						<img src="./Images/facebook.png" alt="facebook" />
+					</a>
+					<a href="https://twitter.com/">
+						<img src="./Images/twitter.png" alt="twitter" />
+					</a>
+					<a href="https://www.instagram.com/">
+						<img src="./Images/instagram.png" alt="instagram" />
+					</a>
+					<a href="https://www.linkedin.com/">
+						<img src="./Images/linkedin.png" alt="linkedin" />
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<ul class="location">
+			<li>480/B, Dehiwala Road,Colombo</li>
+		</ul>
+
+		<ul class="web">
+            <li>info@wecare.lk</li>
+	    </ul>
+
+		<ul class="mail">
+			 <li>www,wecare.lk</li>
+		</ul>
+			
+		<div id="legal">
+			<div>
+				<div id="copyrights">
+					Copyright 2020 We Care Insurance | All rights reserved
+				</div>
+				<div id="policies">
+					<ul>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Terms of use</a></li>
+						<li><a href="">Legal</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </footer>
+</body>
+</html>
